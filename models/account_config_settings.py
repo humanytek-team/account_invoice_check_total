@@ -6,9 +6,9 @@ from odoo import fields, models
 from ..models.account_invoice import GROUP_AICT
 
 
-class AccountConfigSettings(models.TransientModel):
+class ResConfigSettings(models.TransientModel):
 
-    _inherit = 'account.config.settings'
+    _inherit = 'res.config.settings'
 
     group_supplier_inv_check_total = fields.Boolean(
         string="Check Total on Vendor Bills",
