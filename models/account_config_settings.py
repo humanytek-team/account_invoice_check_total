@@ -6,7 +6,7 @@ from odoo import fields, models
 from ..models.account_invoice import GROUP_AICT
 
 
-class ResConfigSettings(models.TransientModel):
+class AccountConfigSettings(models.TransientModel):
 
     _inherit = 'res.config.settings'
 
